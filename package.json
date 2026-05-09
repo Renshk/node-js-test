@@ -1,0 +1,24 @@
+{
+  "name": "node-js-learning-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A practical test lab for learning JavaScript and Node.js features.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:js": "node --test tests/js/**/*.test.js",
+    "test:node": "node --test tests/node/**/*.test.js",
+    "new:test": "node scripts/create-test-file.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "learning",
+    "tests"
+  ],
+  "license": "MIT"
+}
